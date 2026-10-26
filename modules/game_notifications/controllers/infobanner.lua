@@ -74,15 +74,17 @@ local skinType = {
     mount = 3
 }
 
+-- Official client skill ids, as the server sends them in the skill-up event
+-- (Canary: CipbiaSkills_t).
 local SkillId = {
     Magic = 1,
-    Sword = 2,
-    Club = 3,
-    Axe = 4,
-    Fist = 5,
-    Distance = 6,
-    Shielding = 7,
-    Fishing = 8
+    Shielding = 6,
+    Distance = 7,
+    Sword = 8,
+    Club = 9,
+    Axe = 10,
+    Fist = 11,
+    Fishing = 13
 }
 
 local skillNames = {
