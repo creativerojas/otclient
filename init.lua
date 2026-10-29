@@ -63,7 +63,7 @@ if ENABLE_SERVERS then
     --
     Servers_init = {
 
-        -- OTserver local dev: opentibiabr/login-server -> Canary 15.25
+        -- OTserver local dev: opentibiabr/login-server -> Crystal Server 15.25 (D-034)
         ["http://127.0.0.1:8088/login"] = {
             port = 8088,
             protocol = 1525,
